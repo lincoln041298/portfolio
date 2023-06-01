@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className="hidden md:flex gap-4">
           <ThemeToggle />
           <Link
-            href="/documentation"
+            href="/adventure-time"
             className={buttonVariants({ variant: "ghost" })}
           >
-            Documantation
+            Adventure Time
           </Link>
         </div>
       </div>

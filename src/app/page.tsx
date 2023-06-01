@@ -24,8 +24,8 @@ export default function Home() {
             size="lg"
             className="three-d text-black dark:text-light-gold"
           >
-            Website Portfolio <br />
-            Linh Nguyen Van
+            Portfolio Website <br />
+            by Linh Nguyen Van
           </LargeHeading>
 
           <Paragraph className="max-w-xl lg:text-left">
