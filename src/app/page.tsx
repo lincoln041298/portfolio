@@ -47,7 +47,7 @@ export default function Home() {
               quality={100}
               style={{ objectFit: "contain" }}
               fill
-              src="/typewriter.png"
+              src={MyLogo}
               alt="typewriter"
             />
           </div>
