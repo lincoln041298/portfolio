@@ -2,7 +2,7 @@ export const WORKING_EXPERIENCE = [
   {
     id: 1,
     comepanyName: " Kozocom Software Company",
-    linkCompany: "https://kozocom.vn/",
+    link_company: "https://kozocom.vn/",
     startDate: "June 2022",
     endDate: "Present",
     position: "Front-End Developer",
@@ -12,7 +12,7 @@ export const WORKING_EXPERIENCE = [
   {
     id: 2,
     comepanyName: "K2 Software and Education company",
-    linkCompany: "https://k2academy.edu.vn/",
+    link_company: "https://k2academy.edu.vn/",
     startDate: "Sep 2022",
     endDate: "Oct 2023",
     position: "Front-End Developer, Teaching Assistant",
@@ -22,7 +22,7 @@ export const WORKING_EXPERIENCE = [
   {
     id: 3,
     comepanyName: "GCO Software, GCO Corp",
-    linkCompany: "https://gcosoftware.vn/",
+    link_company: "https://gcosoftware.vn/",
     startDate: "June 2021",
     endDate: "June 2022",
     position: "Front-End Developer",
@@ -32,7 +32,7 @@ export const WORKING_EXPERIENCE = [
   {
     id: 4,
     comepanyName: "Iaqboost.com – startup",
-    linkCompany: "http://iaqboost.com",
+    link_company: "http://iaqboost.com",
     startDate: "Feb 2021",
     endDate: "Present",
     position: "Front-End Developer",

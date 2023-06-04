@@ -13,8 +13,8 @@ const WorkingExperience: FC = () => {
           <section key={list.id} className="mt-5">
             <div className="flex items-center">
               <LargeHeading size="sx">{list.comepanyName}</LargeHeading>
-              <Link href={list.linkCompany} target="_blank">
-                <Icons.Link className="w-4 h-4 ml-2" />
+              <Link href={list.link_company} target="_blank">
+                <Icons.Link className="w-4 h-4 ml-2 dark:text-white" />
               </Link>
             </div>
 

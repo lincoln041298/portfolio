@@ -2,12 +2,12 @@ import LargeHeading from "@/components/ui/LargeHeading";
 import Paragraph from "@/components/ui/Paragraph";
 import { Metadata } from "next";
 
-import WorkingExperience from "@/app/(aboutme)/about-me/components/WorkingExperience";
+import WorkingExperience from "@/components/aboutme/components/WorkingExperience";
 import Image from "next/image";
 import { FC } from "react";
 
 import computer from "public/giphy.gif";
-import LoginForm from "./components/LoginForm";
+import LoginForm from "../../../components/adventuretime/components/LoginForm";
 
 export const metadata: Metadata = {
   title: "About Us | By Linh Nguyen Van",
