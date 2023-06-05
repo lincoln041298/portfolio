@@ -21,11 +21,11 @@ export default function RootLayout({
     <html
       lang="en"
       className={cn("bg-white text-slate-900 antialiased", inter.className)}
+      suppressHydrationWarning={true}
     >
       <body className="min-h-screen bg-slate-50 dark:bg-slate-900 antialiased">
         <Providers>
           {children}
-
           <Navbar />
         </Providers>
 

@@ -2,6 +2,7 @@ export const EDUCATION = [
   {
     id: 1,
     school: "DuyTan University",
+    link_university: "https://duytan.edu.vn/",
     startDate: "Aug 2016",
     endDate: "Aug 2020",
     major: "Cyber Security",
@@ -11,6 +12,7 @@ export const EDUCATION = [
   {
     id: 2,
     school: "C2 Cebu Academy in Philippine",
+    link_university: "https://www.facebook.com/philippines.c2ubec/",
     startDate: "July 2019",
     endDate: "Aug 2019",
     major: "Ielts 4.0",
