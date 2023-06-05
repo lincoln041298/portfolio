@@ -1,10 +1,9 @@
+import WorkingExperience from "@/components/aboutme/components/WorkingExperience";
 import LargeHeading from "@/components/ui/LargeHeading";
 import Paragraph from "@/components/ui/Paragraph";
 import { Metadata } from "next";
-import Link from "next/link";
-import { PositionUser } from "../../../components/aboutme/components/PositionUser";
-import WorkingExperience from "@/components/aboutme/components/WorkingExperience";
 import { FC } from "react";
+import { PositionUser } from "../../../components/aboutme/components/PositionUser";
 import Education from "@/components/aboutme/components/Education";
 import TechnicalStrengths from "@/components/aboutme/components/TechnicalStrengths";
 
@@ -30,14 +29,14 @@ const page: FC = () => {
           <LargeHeading size={"sm"}>WORKING EXPERIENCE 🔑</LargeHeading>
           <WorkingExperience />
         </div>
-        {/* <div className="mt-5">
+        <div className="mt-5">
           <LargeHeading size={"sm"}>Education 🔑</LargeHeading>
           <Education />
         </div>
         <div className="mt-5">
           <LargeHeading size={"sm"}>TECHNICAL STRENGTHS 🔑</LargeHeading>
           <TechnicalStrengths />
-        </div> */}
+        </div>
       </div>
     </div>
   );
