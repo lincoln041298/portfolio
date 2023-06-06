@@ -5,6 +5,7 @@ import {
   Moon,
   Laptop,
   ArrowLeft,
+  Link,
 } from "lucide-react";
 
 export const Icons = {
@@ -14,4 +15,5 @@ export const Icons = {
   Moon,
   Laptop,
   ArrowLeft,
+  Link,
 };
