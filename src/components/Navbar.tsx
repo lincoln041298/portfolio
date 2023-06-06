@@ -28,7 +28,7 @@ const Navbar = () => {
             <ThemeToggle />
             <Button
               onClick={() => signOut()}
-              className={buttonVariants({ variant: "ghost" })}
+              className={buttonVariants({ variant: "outline" })}
             >
               Sign Out
             </Button>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <ThemeToggle />
             <Button
               onClick={() => signIn()}
-              className={buttonVariants({ variant: "ghost" })}
+              className={buttonVariants({ variant: "outline" })}
             >
               Adventure Time
             </Button>
