@@ -1,18 +1,17 @@
+import Education from "@/components/aboutme/components/Education";
+import TechnicalStrengths from "@/components/aboutme/components/TechnicalStrengths";
 import WorkingExperience from "@/components/aboutme/components/WorkingExperience";
 import LargeHeading from "@/components/ui/LargeHeading";
 import Paragraph from "@/components/ui/Paragraph";
 import { Metadata } from "next";
-import { FC } from "react";
 import { PositionUser } from "../../../components/aboutme/components/PositionUser";
-import Education from "@/components/aboutme/components/Education";
-import TechnicalStrengths from "@/components/aboutme/components/TechnicalStrengths";
 
 export const metadata: Metadata = {
   title: "About Me | By Linh Nguyen Van",
   description: "Free & open-source text similarity API",
 };
 
-const page: FC = () => {
+const page = async () => {
   return (
     <div className="max-w-7xl mx-auto mt-16">
       <PositionUser />

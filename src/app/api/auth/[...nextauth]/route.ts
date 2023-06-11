@@ -1,3 +1,4 @@
+import prisma from "@/lib/prisma";
 import NextAuth from "next-auth/next";
 import CredentialsProvider from "next-auth/providers/credentials";
 const handler = NextAuth({
@@ -47,11 +48,22 @@ const handler = NextAuth({
 
   callbacks: {
     async jwt({ token, user }) {
-      return { ...token, ...user };
+      const dbUser = await prisma.user.findFirst({
+        where: {
+          name: token.name,
+        },
+      });
+      if (!dbUser) {
+        token.id = user!.id;
+        return token;
+      }
+
+      return { ...token, ...user, id: dbUser?.id };
     },
 
     async session({ session, token }) {
       session.user = token as any;
+
       return session;
     },
   },
